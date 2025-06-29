@@ -16,7 +16,6 @@ const Expertise = () => {
                 </div>
             </div>
             <div className="grid grid-cols-3 relative pt-16 gap-2">
-                {/*  */}
                 <div className="absolute flex gap-5 text-3xl right-0 -top-10">
                     <div className="border cursor-pointer rounded-full p-2 rotate-90"><IoIosArrowRoundDown /></div>
                     <div className="border cursor-pointer rounded-full p-2 -rotate-90"><IoIosArrowRoundDown /></div>

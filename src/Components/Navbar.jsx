@@ -3,7 +3,7 @@ import CTABtn from './CTABtn';
 
 const Navbar = () => {
     return (
-        <div className='flex  sticky px-12 mx-10 items-center justify-between py-6 bg-black/1 rounded-b-4xl'>
+        <div className='flex  sticky px-12 mx-4 items-center justify-between py-6 bg-black/1 rounded-b-4xl'>
             <div>
                 <h1 className='gradual-font font-extrabold text-4xl'>DEVLOP.ME</h1>
             </div>

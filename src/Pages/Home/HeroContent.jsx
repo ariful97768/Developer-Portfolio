@@ -5,7 +5,7 @@ import { IoCall } from 'react-icons/io5';
 
 const HeroContent = () => {
     return (
-        <div className='mx-12 pt-24 pb-32'>
+        <div className='mx-16 pt-24 pb-32'>
             <div>
                 <h1 className='text-7xl font-bold leading-32 w-11/12'>Trusted <ShiningBoldTxt text={'Partner'} /> for <br /> Your Website <ShiningBoldTxt text={'Develop.'} /></h1>
             </div>
