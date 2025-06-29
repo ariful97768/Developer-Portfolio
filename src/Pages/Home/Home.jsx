@@ -1,5 +1,6 @@
 import Navbar from '../../Components/Navbar';
 import bgImg from '../../assets/bg-img.png'
+import Expertise from './Expertise';
 import HeroContent from './HeroContent';
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
                 <Navbar />
                 <HeroContent />
             </section>
+            <Expertise />
         </main>
     );
 };
