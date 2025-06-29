@@ -3,9 +3,11 @@ import bgImg from '../../assets/bg-img.png'
 import HeroContent from './HeroContent';
 const Home = () => {
     return (
-        <main style={{backgroundImage: `url(${bgImg})`, backgroundSize: 'cover', backgroundPosition:'center', backgroundRepeat: 'no-repeat'}}>
-            <Navbar />
-            <HeroContent/>
+        <main className='max-w-[1536px] mx-auto'>
+            <section style={{ backgroundImage: `url(${bgImg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} >
+                <Navbar />
+                <HeroContent />
+            </section>
         </main>
     );
 };
