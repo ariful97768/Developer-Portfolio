@@ -3,6 +3,7 @@ import bgImg from '../../assets/bg-img.png'
 import About from './About';
 import Contact from './Contact';
 import Expertise from './Expertise';
+import Footer from './Footer';
 import HeroContent from './HeroContent';
 import WorkProcess from './WorkProcess';
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <About />
             <WorkProcess />
             <Contact />
+            <Footer />
         </main>
     );
 };
