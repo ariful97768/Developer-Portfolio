@@ -1,6 +1,7 @@
 import Navbar from '../../Components/Navbar';
 import bgImg from '../../assets/bg-img.png'
 import About from './About';
+import Contact from './Contact';
 import Expertise from './Expertise';
 import HeroContent from './HeroContent';
 import WorkProcess from './WorkProcess';
@@ -14,6 +15,7 @@ const Home = () => {
             <Expertise />
             <About />
             <WorkProcess />
+            <Contact />
         </main>
     );
 };
