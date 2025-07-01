@@ -4,7 +4,7 @@ import ShiningBoldTxt from '../../Components/ShiningBoldTxt';
 import { IoCall } from 'react-icons/io5';
 
 const HeroContent = () => {
-    return (          //mx-16 pt-24 pb-32
+    return (
         <div className=' mx-5 sm:mx-10 md:mx-16 pt-6 sm:pt-12 md:pt-18 xl:pt-24 pb-32'>
             <div>
                 <h1 className=' text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-14 sm:leading-16 md:leading-22 lg:leading-28 xl:leading-32 md:w-11/12'>Trusted <ShiningBoldTxt text={'Partner'} /> for <br /> Your Website <ShiningBoldTxt text={'Develop.'} /></h1>

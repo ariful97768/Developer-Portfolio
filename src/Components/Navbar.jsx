@@ -10,8 +10,8 @@ const Navbar = () => {
             <div>
                 <h1 className='gradual-font font-extrabold text-xl sm:text-2xl md:text-3xl lg:text-4xl'>DEVLOP.ME</h1>
             </div>
-            <div className='flex gap-4 md:gap-16 items-center'>
-                <ul className='hidden md:flex gap-9'>
+            <div className='flex gap-4 md:gap-8 lg:gap-16 items-center'>
+                <ul className='hidden md:flex gap-5 lg:gap-9'>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Portfolio</a></li>
