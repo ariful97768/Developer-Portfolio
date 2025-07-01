@@ -1,13 +1,13 @@
 const Footer = () => {
     return (
-        <footer className="mx-4 px-16  pb-18 rounded-[40px] pt-23 bg-[#141414] text-white">
-            <div className="flex space-y-16">
-                <div className="w-2/5 h-full">
-                    <h2 className="text-[#C5FF41] text-4xl font-extrabold">DEVLOP.ME</h2>
+        <footer className="mx-4 px-8 py-10 md:px-16 md:pb-18 md:pt-23 rounded-3xl md:rounded-4xl lg:rounded-[40px] bg-[#141414] text-white">
+            <div className="flex flex-col md:flex-row space-y-16">
+                <div className="md:w-2/5 md:h-full">
+                    <h2 className="text-[#C5FF41] text-base sm:text-2xl md:text-3xl lg:text-4xl font-extrabold">DEVLOP.ME</h2>
                 </div>
-                <div className="w-3/5 space-y-32">
-                    <h1 className="text-[64px] font-bold">As you can</h1>
-                    <div className="grid gap-10 grid-cols-4">
+                <div className="md:w-3/5 space-y-10 md:spay xl:space-y-32">
+                    <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[64px] font-bold">As you can</h1>
+                    <div className="grid gap-10 lg:grid-cols-4">
                         <div className="col-span-2 space-y-12">
                             <div className="space-y-5">
                                 <h3 className="font-bold text-[#757575]">Say Hello</h3>
@@ -24,7 +24,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="space-y-5">
+                        <div className="space-y-5 md:col-span-1 col-span-2">
                             <h3 className="font-bold text-[#757575]">Menu</h3>
                             <ul className="space-y-2">
                                 <li className="text-[#E4E4E4]">HOME</li>
@@ -46,7 +46,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className=" flex justify-between mt-32">
+            <div className="text-xs flex-wrap items-center space-y-2 flex justify-between mt-32">
                 <h1>BESNIK</h1>
                 <p className="opacity-50">@devlop.me 2022</p>
                 <p className="opacity-50">PRIVACY - TERMS</p>
