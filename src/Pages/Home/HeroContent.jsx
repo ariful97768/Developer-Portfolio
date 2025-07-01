@@ -7,9 +7,9 @@ const HeroContent = () => {
     return (
         <div className='mx-16 pt-24 pb-32'>
             <div>
-                <h1 className='text-7xl font-bold leading-32 w-11/12'>Trusted <ShiningBoldTxt text={'Partner'} /> for <br /> Your Website <ShiningBoldTxt text={'Develop.'} /></h1>
+                <h1 className=' text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold xl:leading-32 leading-12 sm:leading-14 md:leading-16 md:w-11/12'>Trusted <ShiningBoldTxt text={'Partner'} /> for <br /> Your Website <ShiningBoldTxt text={'Develop.'} /></h1>
             </div>
-            <div className='flex mt-16 gap-64'>
+            <div className='md:flex mt-16 gap-64'>
                 <div className='-rotate-90 space-y-6'>
                     <p>@wiliamrey</p>
                     <p className='flex items-center gap-5 text-2xl' >— <FaFacebook /> <FaInstagram /> <FaTwitter /> </p>
