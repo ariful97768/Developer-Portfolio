@@ -4,13 +4,13 @@ import ShiningBoldTxt from '../../Components/ShiningBoldTxt';
 import { IoCall } from 'react-icons/io5';
 
 const HeroContent = () => {
-    return (
-        <div className='mx-16 pt-24 pb-32'>
+    return (          //mx-16 pt-24 pb-32
+        <div className=' mx-5 sm:mx-10 md:mx-16 pt-6 sm:pt-12 md:pt-18 xl:pt-24 pb-32'>
             <div>
-                <h1 className=' text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold xl:leading-32 leading-12 sm:leading-14 md:leading-16 md:w-11/12'>Trusted <ShiningBoldTxt text={'Partner'} /> for <br /> Your Website <ShiningBoldTxt text={'Develop.'} /></h1>
+                <h1 className=' text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-14 sm:leading-16 md:leading-22 lg:leading-28 xl:leading-32 md:w-11/12'>Trusted <ShiningBoldTxt text={'Partner'} /> for <br /> Your Website <ShiningBoldTxt text={'Develop.'} /></h1>
             </div>
-            <div className='md:flex mt-16 gap-64'>
-                <div className='-rotate-90 space-y-6'>
+            <div className='flex relative mt-16 lg:gap-32 xl:gap-64'>
+                <div className='md:static -bottom-5 right-0 absolute  md:-rotate-90 md:space-y-6 space-y-2'>
                     <p>@wiliamrey</p>
                     <p className='flex items-center gap-5 text-2xl' >— <FaFacebook /> <FaInstagram /> <FaTwitter /> </p>
                 </div>
